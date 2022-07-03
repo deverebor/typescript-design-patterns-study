@@ -1,7 +1,7 @@
 type ICartItem = { name: string; price: number }
 type IOrderStatus = 'open' | 'pending' | 'approved' | 'closed'
 
-export class ShoppingCart {
+export class LegacyShoppingCart {
 	private readonly _items: ICartItem[] = []
 	private _orderStatus: IOrderStatus = 'open'
 
@@ -69,10 +69,10 @@ export class ShoppingCart {
 	}
 }
 
-const shoppingCart = new ShoppingCart()
-shoppingCart.addItem({ name: 'Pen', price: 0.99 })
-shoppingCart.addItem({ name: 'Notebook', price: 99.99 })
-shoppingCart.addItem({ name: 'Bottle Water', price: 1.99 })
+const legacyShoppingCart = new LegacyShoppingCart()
+legacyShoppingCart.addItem({ name: 'Pen', price: 0.99 })
+legacyShoppingCart.addItem({ name: 'Notebook', price: 99.99 })
+legacyShoppingCart.addItem({ name: 'Bottle Water', price: 1.99 })
 
-console.log(shoppingCart.items)
-shoppingCart.finalizeCart()
+console.log(legacyShoppingCart.items)
+legacyShoppingCart.finalizeCart()
