@@ -25,7 +25,7 @@ export class ShoppingCart {
 	}
 
 	totalWithDescount() {
-		return this.discount.applyDiscount(this.totalCart()).toFixed(2)
+		return +this.discount.applyDiscount(this.totalCart()).toFixed(2)
 	}
 
 	isEmptyCart(): boolean {
