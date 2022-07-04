@@ -1,5 +1,5 @@
 import { Persistency } from '../index'
-import { Messaging } from '../../../../SOLID/liskov-subistitution-principle/services/messaging'
+import { Messaging } from '../../Messaging'
 
 describe('Persistency Class', () => {
 	afterEach(() => {

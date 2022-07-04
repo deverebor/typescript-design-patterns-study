@@ -10,7 +10,7 @@
   "scripts": {
     "lint": "eslint .",
     "test": "jest",
-    "test:silent": "jest --watchAll --silent --noStackTrace"
+    "test:silent": "jest --watch --silent --noStackTrace"
   },
   "devDependencies": {
     "@types/jest": "^28.1.4",

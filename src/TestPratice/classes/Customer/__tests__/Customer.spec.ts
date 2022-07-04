@@ -1,19 +1,4 @@
-import { Customer, CustomerEnterprise } from '..'
-
-const sutCustomer = (
-	firstName: string,
-	lastName: string,
-	cpf: string
-): Customer => {
-	return new Customer(firstName, lastName, cpf)
-}
-
-const sutCustomerEnterprise = (
-	name: string,
-	cnpj: string
-): CustomerEnterprise => {
-	return new CustomerEnterprise(name, cnpj)
-}
+import { sutCustomer, sutCustomerEnterprise } from './Customer.mock'
 
 afterEach(() => {
 	jest.clearAllMocks()
