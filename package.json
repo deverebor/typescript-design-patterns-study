@@ -9,6 +9,8 @@
   "private": false,
   "scripts": {
     "lint": "eslint . --fix",
+    "creational:singleton": "ts-node --files --transpile-only './src/GOF/creational/singleton/module_b.ts'",
+    "creational:builder": "ts-node --files --transpile-only './src/GOF/creational/builder/index.ts'",
     "start:testPratice": "ts-node --files --transpile-only './src/TestPratice/main.ts'",
     "start:srp": "ts-node --files --transpile-only './src/SOLID/single-responsability-principle/main.ts'",
     "start:ocp": "ts-node --files --transpile-only './src/SOLID/open-closed-principle/main.ts'",
