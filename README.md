@@ -48,7 +48,7 @@ npm i
 
 Follow these steps:
 
-#### [SOLID](src/SOLID/README.md)
+#### [SOLID](src/SOLID/)
 
 - npm run start:srp - single responsibility principle
 - npm run start:ocp - open closed principle
@@ -57,17 +57,17 @@ Follow these steps:
 - npm run start:dip - dependency inversion principle
 - npm run start:legacy
 
-#### [TestPratice](src/TestPratice/README.md)
+#### [TestPratice](src/TestPratice/)
 
 - npm run test - test the project
 - npm run test:silent - silent with watch test
 - npm run test:coverage - to generate coverage report
 
-#### [GoF](src/GOF/README.md)
+#### [GoF](src/GOF/)
 
 - creational
-  - [Singleton](src/GOF/creational/singleton/README.md) - npm run creational:singleton
-  - [Builder](src/GOF/creational/builder/README.md) - npm run creational:builder
+  - [Singleton](src/GOF/creational/singleton/) - npm run creational:singleton
+  - [Builder](src/GOF/creational/builder/) - npm run creational:builder
 
 > Initialize the project you want
 
