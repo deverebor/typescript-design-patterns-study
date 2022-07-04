@@ -1,5 +1,5 @@
-import { ICartItem, IShoppingCart } from './interfaces'
-import { Discount } from './discount'
+import { ICartItem, IShoppingCart } from '../../interfaces'
+import { Discount } from '../Discount'
 
 export class ShoppingCart implements IShoppingCart {
 	private readonly _items: ICartItem[] = []
