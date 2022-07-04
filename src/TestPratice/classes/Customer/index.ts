@@ -1,4 +1,8 @@
-import { ICustomer, ICustomerEnterprise, ICustomerOrder } from './interfaces'
+import {
+	ICustomer,
+	ICustomerEnterprise,
+	ICustomerOrder,
+} from '../../interfaces'
 
 export class Customer implements ICustomer, ICustomerOrder {
 	firstName: string
