@@ -6,6 +6,7 @@
 
 * [Introduction](#introduction)
 * [Solid](./SOLID/README.md)
+* [TestPratice](./TestPratice/README.md)
 
 ## Introduction
 
