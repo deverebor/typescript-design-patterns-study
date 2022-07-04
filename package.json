@@ -9,6 +9,13 @@
   "private": false,
   "scripts": {
     "lint": "eslint .",
+    "start:testPratice": "ts-node --files --transpile-only './src/TestPratice/main.ts'",
+    "start:srp": "ts-node --files --transpile-only './src/SOLID/single-responsability-principle/main.ts'",
+    "start:ocp": "ts-node --files --transpile-only './src/SOLID/open-closed-principle/main.ts'",
+    "start:lsp": "ts-node --files --transpile-only './src/SOLID/liskov-subistitution-principle/main.ts'",
+    "start:isp": "ts-node --files --transpile-only './src/SOLID/interface-segregation-principle/main.ts'",
+    "start:dip": "ts-node --files --transpile-only './src/SOLID/dependency-inversion-principle/main.ts'",
+    "start:legacy": "ts-node --files --transpile-only './src/SOLID/legacy/shopping-cart-legacy.ts'",
     "test": "jest",
     "test:silent": "jest --watch --silent --noStackTrace --bail --maxWorkers=50%",
     "test:coverage": "jest --coverage --silent --noStackTrace --passWithNoTests --bail --maxWorkers=50%"
