@@ -29,6 +29,12 @@ export interface IShoppingCart {
 	clear(): void
 }
 
+export interface IOrderShoppingCart {
+	totalWithDescount(): number
+	isEmptyCart(): boolean
+	clear(): void
+}
+
 export interface IMessaging {
 	statusMessage(message: string): void
 }

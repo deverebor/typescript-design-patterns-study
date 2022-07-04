@@ -5,7 +5,7 @@ export class Percistency {
 
 	processOrder(cartAmount: number): void {
 		this.messaging.statusMessage(
-			`Your order with total of R$${cartAmount} has been processed.`
+			`Your order with total of R$${cartAmount} has been processed.`,
 		)
 	}
 

@@ -18,7 +18,7 @@ describe('Messaging class', () => {
 		sut.statusMessage('Order status: Order received')
 
 		expect(statusMessageSpy).toHaveBeenCalledWith(
-			'Order status: Order received'
+			'Order status: Order received',
 		)
 		expect(statusMessageSpy).toHaveBeenCalledTimes(1)
 	})

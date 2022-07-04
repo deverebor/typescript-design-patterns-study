@@ -38,7 +38,7 @@ export class LegacyShoppingCart {
 	processOrder(): void {
 		this._orderStatus = 'pending'
 		this.statusMessage(
-			`Your order with total of $${this.totalCart()} has been processed.`
+			`Your order with total of $${this.totalCart()} has been processed.`,
 		)
 	}
 

@@ -8,7 +8,7 @@ import { Customer, CustomerEnterprise } from './classes/customer'
 const customer = new Customer('John', 'Doe', '123.456.789-00')
 const enterpriseCustomer = new CustomerEnterprise(
 	'Company',
-	'123.456.789/0001-00'
+	'123.456.789/0001-00',
 )
 const withoutDiscount = new TenPercentDiscount()
 const shoppingCart = new ShoppingCart(withoutDiscount)

@@ -31,7 +31,7 @@ describe('Persistency Class', () => {
 		persistency.processOrder(10)
 
 		expect(processOrderSpy).toHaveBeenCalledWith(
-			'Your order with total of R$10 has been processed.'
+			'Your order with total of R$10 has been processed.',
 		)
 		expect(processOrderSpy).toHaveBeenCalledTimes(1)
 	})

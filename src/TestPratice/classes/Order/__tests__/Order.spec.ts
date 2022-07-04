@@ -103,7 +103,7 @@ describe('Order class', () => {
 		expect(customerGetNameMockSpy).toHaveBeenCalledTimes(1)
 		expect(customerGetIdentificationNumberMockSpy).toHaveBeenCalledTimes(1)
 		expect(finalizeCartSpy).toHaveBeenCalledWith(
-			'The client is Adeobaldo Pinto and his credentials are 123123123123'
+			'The client is Adeobaldo Pinto and his credentials are 123123123123',
 		)
 	})
 })

@@ -9,7 +9,7 @@ export class Order {
 	constructor(
 		private readonly cart: ShoppingCart,
 		private readonly percistency: Percistency,
-		private readonly customer: ICustomerOrder
+		private readonly customer: ICustomerOrder,
 	) {}
 
 	get orderStatus(): IOrderStatus {
@@ -42,7 +42,7 @@ export class Order {
 		this.save()
 		this.close()
 		console.log(
-			`The client is ${this.customer.getName()} and his credentials are ${this.customer.getIdentificationNumber()}`
+			`The client is ${this.customer.getName()} and his credentials are ${this.customer.getIdentificationNumber()}`,
 		)
 	}
 }

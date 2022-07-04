@@ -7,7 +7,7 @@ export class Order {
 
 	constructor(
 		private readonly cart: ShoppingCart,
-		private readonly percistency: Percistency
+		private readonly percistency: Percistency,
 	) {}
 
 	get orderStatus(): IOrderStatus {
