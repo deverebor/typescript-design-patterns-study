@@ -4,20 +4,25 @@
 
 ## Index
 
-* [Introduction](#introduction)
-* [Solid](./SOLID/README.md)
-* [TestPratice](./TestPratice/README.md)
-* [Running App](#running-app)
+- [TypeScript design patterns study](#typescript-design-patterns-study)
+  - [Index](#index)
+    - [Introduction](#introduction)
+      - [Folder structure](#folder-structure)
+    - [Running App](#running-app)
+    - [Using the project](#using-the-project)
+      - [SOLID](#solid)
+      - [TestPratice](#testpratice)
+      - [GoF](#gof)
 
-## Introduction
+### Introduction
 
 This repo has been created to study design patterns, solid principles, GoF, testing and more with TypeScript.
 
-### Folder structure
+#### Folder structure
 
 All topics are in the `src` folder, separated by they topic. All topic has an `README.md` file and his sub topics as well.
 
-# Running App
+### Running App
 
 To install follow these steps:
 
@@ -39,22 +44,30 @@ cd typescript-design-patterns-study
 npm i
 ```
 
-## Using the project
+### Using the project
 
 Follow these steps:
 
-* SOLID
-  * npm run start:srp - single responsibility principle
-  * npm run start:ocp - open closed principle
-  * npm run start:lsp - liskov substitution principle
-  * npm run start:isp - interface segregation principle
-  * npm run start:dip - dependency inversion principle
-  * npm run start:legacy
+#### [SOLID](src/SOLID/README.md)
 
-* TestPratice
-  * npm run test - test the project
-  * npm run test:silent - silent with watch test
-  * npm run test:coverage - to generate coverage report
+- npm run start:srp - single responsibility principle
+- npm run start:ocp - open closed principle
+- npm run start:lsp - liskov substitution principle
+- npm run start:isp - interface segregation principle
+- npm run start:dip - dependency inversion principle
+- npm run start:legacy
+
+#### [TestPratice](src/TestPratice/README.md)
+
+- npm run test - test the project
+- npm run test:silent - silent with watch test
+- npm run test:coverage - to generate coverage report
+
+#### [GoF](src/GOF/README.md)
+
+- creational
+  - [Singleton](src/GOF/creational/Singleton/README.md) - npm run creational:singleton
+  - [Builder](src/GOF/creational/Builder/README.md) - npm run creational:builder
 
 > Initialize the project you want
 
