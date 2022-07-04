@@ -1,6 +1,10 @@
 import { Messaging } from '../index'
 
 describe('Messaging class', () => {
+	afterEach(() => {
+		jest.clearAllMocks()
+	})
+
 	it('should Messaging class have all content from IMessaging interface', () => {
 		const sut = new Messaging()
 
@@ -23,11 +27,9 @@ describe('Messaging class', () => {
 		const sut = new Messaging()
 		const consoleLogSpy = jest.spyOn(console, 'log')
 
-		sut.statusMessage('Order status: Order received')
+		sut.statusMessage('Order received')
 
-		expect(consoleLogSpy).toHaveBeenCalledWith(
-			'Order status: Order status: Order received'
-		)
+		expect(consoleLogSpy).toHaveBeenCalledWith('Order status: Order received')
 		expect(consoleLogSpy).toHaveBeenCalledTimes(1)
 	})
 })
