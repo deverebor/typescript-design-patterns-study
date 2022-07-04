@@ -66,8 +66,8 @@ Follow these steps:
 #### [GoF](src/GOF/README.md)
 
 - creational
-  - [Singleton](src/GOF/creational/Singleton/README.md) - npm run creational:singleton
-  - [Builder](src/GOF/creational/Builder/README.md) - npm run creational:builder
+  - [Singleton](src/GOF/creational/singleton/README.md) - npm run creational:singleton
+  - [Builder](src/GOF/creational/builder/README.md) - npm run creational:builder
 
 > Initialize the project you want
 
