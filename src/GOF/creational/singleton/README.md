@@ -21,10 +21,6 @@ Em entrevista, anos após a criação do livro, Erich Gamma (um dos autores), me
 
 ---
 
-## Estrutura
-
-Veja a pasta diagramas.
-
 ## Aplicabilidade
 
 Use o singleton quando:
