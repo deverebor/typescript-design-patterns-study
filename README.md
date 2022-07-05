@@ -68,6 +68,11 @@ Follow these steps:
 - creational
   - [Singleton](src/GOF/creational/singleton/) - npm run creational:singleton
   - [Builder](src/GOF/creational/builder/) - npm run creational:builder
+  - [ProtoType](src/GOF/creational/prototype/)
+    - npm run creational:proto-deep -> Deep Clone
+    - npm run creational:proto-shallow -> Shallow Clone
+    - npm run creational:proto-js-obj -> JS Object Clone
+    - npm run creational:proto-js-func -> JS Function Clone
 
 > Initialize the project you want
 
