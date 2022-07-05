@@ -15,6 +15,7 @@
     "creational:proto-js-func": "node './src/GOF/creational/prototype/js/constructor-functions.js'",
     "creational:proto-deep": "ts-node --files --transpile-only './src/GOF/creational/prototype/prototype-deep-copy/main.ts'",
     "creational:proto-shallow": "ts-node --files --transpile-only './src/GOF/creational/prototype/prototype-shallow-copy/main.ts'",
+    "creational:factory": "ts-node --files --transpile-only './src/GOF/creational/factory-method/main.ts'",
     "start:testPratice": "ts-node --files --transpile-only './src/TestPratice/main.ts'",
     "start:srp": "ts-node --files --transpile-only './src/SOLID/single-responsability-principle/main.ts'",
     "start:ocp": "ts-node --files --transpile-only './src/SOLID/open-closed-principle/main.ts'",
