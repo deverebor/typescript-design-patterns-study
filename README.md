@@ -74,6 +74,7 @@ Follow these steps:
     - npm run creational:proto-js-obj - JS Object Clone
     - npm run creational:proto-js-func - JS Function Clone
   - [FactoryMethod](src/GOF/creational/factory-method/) - npm run creational:factory
+  - [AbstractFactory](src/GOF/creational/abstract-factory/) - npm run creational:abstract-factory
 
 > Initialize the project you want
 
