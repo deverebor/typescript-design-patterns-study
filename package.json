@@ -17,6 +17,8 @@
     "creational:proto-shallow": "ts-node --files --transpile-only './src/GOF/creational/prototype/prototype-shallow-copy/main.ts'",
     "creational:factory": "ts-node --files --transpile-only './src/GOF/creational/factory-method/main.ts'",
     "creational:abstract-factory": "ts-node --files --transpile-only './src/GOF/creational/abstract-factory/main.ts'",
+    "structural:composite-classic": "ts-node --files --transpile-only './src/GOF/structural/composite/classic-structure/main.ts'",
+    "structural:composite-validation": "ts-node --files --transpile-only './src/GOF/structural/composite/validation-structure/main.ts'",
     "start:testPratice": "ts-node --files --transpile-only './src/TestPratice/main.ts'",
     "start:srp": "ts-node --files --transpile-only './src/SOLID/single-responsability-principle/main.ts'",
     "start:ocp": "ts-node --files --transpile-only './src/SOLID/open-closed-principle/main.ts'",

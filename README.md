@@ -75,6 +75,10 @@ Follow these steps:
     - npm run creational:proto-js-func - JS Function Clone
   - [FactoryMethod](src/GOF/creational/factory-method/) - npm run creational:factory
   - [AbstractFactory](src/GOF/creational/abstract-factory/) - npm run creational:abstract-factory
+- structural
+  - [Composite](src/GOF/structural/composite/)
+    - npm run structural:composite-classic - Classic Structure
+    - npm run structural:composite-validation - Validation Structure
 
 > Initialize the project you want
 
@@ -87,4 +91,3 @@ npm run start:dip
 <p align='center'>
   Developer with ❤️‍🔥 by Lucas Souza (@deverebor)
 </p>
-
