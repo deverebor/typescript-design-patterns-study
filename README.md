@@ -81,3 +81,10 @@ Follow these steps:
 ```zsh
 npm run start:dip
 ```
+
+---
+
+<p align='center'>
+  Developer with ❤️‍🔥 by Lucas Souza (@deverebor)
+</p>
+
