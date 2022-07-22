@@ -79,6 +79,7 @@ Follow these steps:
   - [Composite](src/GOF/structural/composite/)
     - npm run structural:composite-classic - Classic Structure
     - npm run structural:composite-validation - Validation Structure
+  - [Adapter](src/GOF/structural/adapter/) - npm run structural:adapter
 
 > Initialize the project you want
 
