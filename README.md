@@ -80,6 +80,7 @@ Follow these steps:
     - npm run structural:composite-classic - Classic Structure
     - npm run structural:composite-validation - Validation Structure
   - [Adapter](src/GOF/structural/adapter/) - npm run structural:adapter
+  - [Bridge](src/GOF/structural/bridge/) - npm run structural:bridge
 
 > Initialize the project you want
 

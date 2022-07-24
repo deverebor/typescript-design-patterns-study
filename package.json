@@ -20,6 +20,7 @@
     "structural:composite-classic": "ts-node --files --transpile-only './src/GOF/structural/composite/classic-structure/main.ts'",
     "structural:composite-validation": "ts-node --files --transpile-only './src/GOF/structural/composite/validation-structure/main.ts'",
     "structural:adapter": "ts-node --files --transpile-only './src/GOF/structural/adapter/main.ts'",
+    "structural:bridge": "ts-node --files --transpile-only './src/GOF/structural/bridge/main.ts'",
     "start:testPratice": "ts-node --files --transpile-only './src/TestPratice/main.ts'",
     "start:srp": "ts-node --files --transpile-only './src/SOLID/single-responsability-principle/main.ts'",
     "start:ocp": "ts-node --files --transpile-only './src/SOLID/open-closed-principle/main.ts'",
