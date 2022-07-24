@@ -83,6 +83,7 @@ Follow these steps:
   - [Bridge](src/GOF/structural/bridge/) - npm run structural:bridge
   - [Decorator](src/GOF/structural/decorator/) - npm run structural:decorator
   - [Facade](src/GOF/structural/facade/) - npm run structural:facade
+  - [Proxy](src/GOF/structural/proxy/) - npm run structural:proxy
 
 > Initialize the project you want
 
