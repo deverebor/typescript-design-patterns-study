@@ -82,6 +82,7 @@ Follow these steps:
   - [Adapter](src/GOF/structural/adapter/) - npm run structural:adapter
   - [Bridge](src/GOF/structural/bridge/) - npm run structural:bridge
   - [Decorator](src/GOF/structural/decorator/) - npm run structural:decorator
+  - [Facade](src/GOF/structural/facade/) - npm run structural:facade
 
 > Initialize the project you want
 
