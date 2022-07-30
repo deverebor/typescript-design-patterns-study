@@ -17,6 +17,7 @@
     "creational:proto-shallow": "ts-node --files --transpile-only './src/GOF/creational/prototype/prototype-shallow-copy/main.ts'",
     "creational:factory": "ts-node --files --transpile-only './src/GOF/creational/factory-method/main.ts'",
     "creational:abstract-factory": "ts-node --files --transpile-only './src/GOF/creational/abstract-factory/main.ts'",
+
     "structural:composite-classic": "ts-node --files --transpile-only './src/GOF/structural/composite/classic-structure/main.ts'",
     "structural:composite-validation": "ts-node --files --transpile-only './src/GOF/structural/composite/validation-structure/main.ts'",
     "structural:adapter": "ts-node --files --transpile-only './src/GOF/structural/adapter/main.ts'",
@@ -25,7 +26,10 @@
     "structural:facade": "ts-node --files --transpile-only './src/GOF/structural/facade/main.ts'",
     "structural:proxy": "ts-node --files --transpile-only './src/GOF/structural/proxy/main.ts'",
     "structural:flyweight": "ts-node --files --transpile-only './src/GOF/structural/flyweight/main.ts'",
+
     "behavioral:strategy": "ts-node --files --transpile-only './src/GOF/behavioral/strategy/main.ts'",
+    "behavioral:command": "ts-node --files --transpile-only './src/GOF/behavioral/command/main.ts'",
+
     "start:testPratice": "ts-node --files --transpile-only './src/TestPratice/main.ts'",
     "start:srp": "ts-node --files --transpile-only './src/SOLID/single-responsability-principle/main.ts'",
     "start:ocp": "ts-node --files --transpile-only './src/SOLID/open-closed-principle/main.ts'",
@@ -33,6 +37,7 @@
     "start:isp": "ts-node --files --transpile-only './src/SOLID/interface-segregation-principle/main.ts'",
     "start:dip": "ts-node --files --transpile-only './src/SOLID/dependency-inversion-principle/main.ts'",
     "start:legacy": "ts-node --files --transpile-only './src/SOLID/legacy/shopping-cart-legacy.ts'",
+
     "test": "jest",
     "test:silent": "jest --watch --silent --noStackTrace --bail --maxWorkers=50%",
     "test:coverage": "jest --coverage --silent --noStackTrace --passWithNoTests --bail --maxWorkers=50%"

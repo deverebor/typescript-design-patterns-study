@@ -87,6 +87,7 @@ Follow these steps:
   - [Flyweight](src/GOF/structural/flyweight/) - npm run structural:flyweight
 - behavioral
   - [Strategy](src/GOF/behavioral/strategy/) - npm run behavioral:strategy
+  - [Command](src/GOF/behavioral/command/) - npm run behavioral:command
 
 > Initialize the project you want
 
