@@ -25,6 +25,7 @@
     "structural:facade": "ts-node --files --transpile-only './src/GOF/structural/facade/main.ts'",
     "structural:proxy": "ts-node --files --transpile-only './src/GOF/structural/proxy/main.ts'",
     "structural:flyweight": "ts-node --files --transpile-only './src/GOF/structural/flyweight/main.ts'",
+    "behavioral:strategy": "ts-node --files --transpile-only './src/GOF/behavioral/strategy/main.ts'",
     "start:testPratice": "ts-node --files --transpile-only './src/TestPratice/main.ts'",
     "start:srp": "ts-node --files --transpile-only './src/SOLID/single-responsability-principle/main.ts'",
     "start:ocp": "ts-node --files --transpile-only './src/SOLID/open-closed-principle/main.ts'",

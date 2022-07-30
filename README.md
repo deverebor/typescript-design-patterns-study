@@ -85,6 +85,8 @@ Follow these steps:
   - [Facade](src/GOF/structural/facade/) - npm run structural:facade
   - [Proxy](src/GOF/structural/proxy/) - npm run structural:proxy
   - [Flyweight](src/GOF/structural/flyweight/) - npm run structural:flyweight
+- behavioral
+  - [Strategy](src/GOF/behavioral/strategy/) - npm run behavioral:strategy
 
 > Initialize the project you want
 
