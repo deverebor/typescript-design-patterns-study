@@ -90,6 +90,7 @@ Follow these steps:
   - [Command](src/GOF/behavioral/command/) - npm run behavioral:command
   - [Memento](src/GOF/behavioral/memento/) - npm run behavioral:memento
   - [State](src/GOF/behavioral/state/) - npm run behavioral:state
+  - [Mediator](src/GOF/behavioral/mediator/) - npm run behavioral:mediator
 
 > Initialize the project you want
 

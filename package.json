@@ -29,6 +29,7 @@
 		"behavioral:command": "ts-node --files --transpile-only './src/GOF/behavioral/command/main.ts'",
 		"behavioral:memento": "ts-node --files --transpile-only './src/GOF/behavioral/memento/main.ts'",
 		"behavioral:state": "ts-node --files --transpile-only './src/GOF/behavioral/state/main.ts'",
+		"behavioral:mediator": "ts-node --files --transpile-only './src/GOF/behavioral/mediator/main.ts'",
 		"start:testPratice": "ts-node --files --transpile-only './src/TestPratice/main.ts'",
 		"start:srp": "ts-node --files --transpile-only './src/SOLID/single-responsability-principle/main.ts'",
 		"start:ocp": "ts-node --files --transpile-only './src/SOLID/open-closed-principle/main.ts'",
