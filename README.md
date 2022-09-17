@@ -89,6 +89,7 @@ Follow these steps:
   - [Strategy](src/GOF/behavioral/strategy/) - npm run behavioral:strategy
   - [Command](src/GOF/behavioral/command/) - npm run behavioral:command
   - [Memento](src/GOF/behavioral/memento/) - npm run behavioral:memento
+  - [State](src/GOF/behavioral/state/) - npm run behavioral:state
 
 > Initialize the project you want
 
